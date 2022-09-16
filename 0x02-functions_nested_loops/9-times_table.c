@@ -2,7 +2,7 @@
 
 /**
  * times_table - prints the 9 times table, starting with 0.
- * @a: The number to be calculated
+ * @n: The number to be calculated
  */
 void times_table(void)
 {

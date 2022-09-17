@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * times_table - prints the 9 times table, starting with 0.
+ * print_times_table - prints the 9 times table, starting with 0.
  * @n: The number to be calculated
  */
-void times_table(void)
+void print_tiimes_table(int n)
 {
 	int i, j, k;
 

@@ -19,7 +19,7 @@ int _strlen(char *s)
 		}
 	} else
 	{
-		result = 0;
+		len = 0;
 	}
 
 	return (len);

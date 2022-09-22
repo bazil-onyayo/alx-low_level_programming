@@ -5,7 +5,7 @@
  *	followed by a new line, to stdout
  * @str: a pointer to a string
  */
-void _puts(char *str)
+void puts2(char *str)
 {
 	int i;
 	int len;

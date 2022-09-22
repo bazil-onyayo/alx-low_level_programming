@@ -38,11 +38,11 @@ void rev_string(char *s)
 		for (i = 0; i < (len / 2); i++)
 		{
 			ch = *st_end;
-			*st_start = *st_end;
-			*st_end = ch;
+			*str_start = *st_end;
+			*str_end = ch;
 
-			st_start++;
-			st_end--;
+			str_start++;
+			str_end--;
 		}
 
 	}

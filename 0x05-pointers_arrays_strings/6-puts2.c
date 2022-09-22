@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - prints a string,
+ * puts2 - prints a string,
  *	followed by a new line, to stdout
  * @str: a pointer to a string
  */
@@ -23,9 +23,13 @@ void puts2(char *str)
 			{
 				str++;
 				str++;
-				_putchar(str[i]);
+				_putchar(str);
 			}
 		}
 		_putchar('\n');
+	} else
+	{
+		_putchar(str);
 	}
+
 }

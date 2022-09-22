@@ -25,7 +25,7 @@ void rev_string(char *s)
 		/**
 		 * This for loop results to the end pointer of string s
 		 */
-		for (i = 0; i > (len - 1); i--)
+		for (i = 0; i < (len - 1); i--)
 		{
 			str_end++;
 		}

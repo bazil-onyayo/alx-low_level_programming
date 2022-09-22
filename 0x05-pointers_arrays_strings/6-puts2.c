@@ -23,13 +23,13 @@ void puts2(char *str)
 			{
 				str++;
 				str++;
-				_putchar(str);
+				_putchar(*str);
 			}
 		}
 		_putchar('\n');
 	} else
 	{
-		_putchar(str);
+		_putchar(*str);
 	}
 
 }

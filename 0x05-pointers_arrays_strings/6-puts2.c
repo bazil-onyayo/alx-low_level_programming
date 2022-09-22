@@ -19,10 +19,10 @@ void puts2(char *str)
 
 		for (i = 0; i < (len - 2); i++)
 		{
+			str++;
+			str++;
 			if (i % 2 == 0)
 			{
-				str++;
-				str++;
 				_putchar(*str);
 			}
 		}

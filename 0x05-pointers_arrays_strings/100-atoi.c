@@ -11,9 +11,11 @@ int _atoi(char *s)
 {
 	int index;
 	int neg;
+	int res;
 
 	index = 0;
 	neg = 0;
+	res = 0;
 
 	while (*s != '\0')
 	{

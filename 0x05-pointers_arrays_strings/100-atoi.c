@@ -12,12 +12,10 @@ int _atoi(char *s)
 	int index;
 	int neg;
 	int res;
-	int i;
 
 	index = 0;
 	neg = 0;
 	res = 0;
-	i = 0;
 
 	while (*s != '\0')
 	{
@@ -34,7 +32,7 @@ int _atoi(char *s)
 		{
 			res = res * 10 + (*s - '0');
 
-			if (s[i + 1] < '0')
+			if (s[index + 1] < '0')
 			{
 				break;
 			}

@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 	int n;
-	int password[32];
+	char password[32];
 
 	n = 20;
 
